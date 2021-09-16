@@ -77,12 +77,11 @@ class Player(Sprite):
 # Create game objects
 player = Player(600, 550, 150, 10)
 blocks = []
-blocks.append(Sprite(1200/2, 650, 1200, 50))
+blocks.append(Sprite(0, 800/2, 20, 800))
+blocks.append(Sprite(1200, 800/2, 20, 800))
+blocks.append(Sprite(1200/2, 800, 1200, 50))
+blocks.append(Sprite(800, 800, 20, 100))
 
-# blocks.append(Sprite(600, 400, 600, 20))
-# blocks.append(Sprite(600, 600, 1000, 20))
-# blocks.append(Sprite(1000, 500, 100, 200))
-# blocks.append(Sprite(200, 500, 100, 200))
 
 # Main game loop
 while True:
